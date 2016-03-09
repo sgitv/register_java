@@ -1,0 +1,29 @@
+<%-- 
+    Document   : Registrationform
+    Created on : Jun 12, 2015, 6:04:01 PM
+    Author     : mickey
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Registration</title>
+    </head>
+    <form action="Servlet">
+    <body>
+    <center>
+        <table>
+            <tr><td align="center" colspan="2"><h1>Registration form</h1></tr></td>
+        <tr><td>User Name</td><td><input type="text" name="userid" required></tr>
+        <tr><td>Password</td><td><input type="password" name="password" required></tr>
+        <tr><td>E-Mail</td><td><input type="email" name="email" required></tr>
+        <tr><td>Phone Number</td><td><input type="text" name="number" required></tr>
+        <tr><td align="center" colspan="2"><input type="submit" value="Register"></tr></td>
+        </table>
+    </center>
+        
+    </body>
+</form>
+</html>
